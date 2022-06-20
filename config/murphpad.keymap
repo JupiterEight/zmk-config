@@ -11,6 +11,8 @@
 
 
 #define TIMEOUT 300
+#define DEFAULT 0
+#define NAVI    1
 
 &encoder_1 {
     status = "okay";
@@ -62,14 +64,14 @@
                 &kp N1       &kp LA(BSPC)    &kp LG(BSPC)       &trans       &kp KP_N9   
                 &kp N1       &kp KP_N4    &kp KP_N5       &kp KP_N6         &trans
                 &kp LA(RIGHT)       &kp KP_N1    &kp KP_N2       &kp KP_N3         &kp KP_N7
-                &kp LA(LEFT)       &kp KP_N0    &trans          &trans       &trans
+                &kp LA(LEFT)       &kp KP_N0    &trans          &trans       &tog NAVI
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 
         }; 
         
-        fn_layer {
-            label = "fn layer";
+        navi_layer {
+            label = "navi layer";
             bindings = <
                 &trans      &trans     &trans        &trans          &trans  
                 &trans      &kp KP_NUM &trans        &trans          &trans     
