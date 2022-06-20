@@ -74,7 +74,7 @@
             label = "navi layer";
             bindings = <
                 &trans      &trans     &trans        &trans          &trans  
-                &trans      &kp KP_NUM &trans        &trans          &trans     
+                &trans      &trans &trans        &trans          &trans     
                 &trans      &trans     &trans        &trans             &trans
                 &trans  &trans     &trans        &trans          &trans    
                 &kp LC(LA(LS(RIGHT)))     &trans     &trans        &trans          &trans
