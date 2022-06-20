@@ -75,8 +75,8 @@
                 &trans      &kp KP_NUM &trans        &trans          &trans     
                 &trans      &trans     &trans        &trans             &trans
                 &trans  &trans     &trans        &trans          &trans    
-                &LC(LA(LS(RIGHT))      &trans     &trans        &trans          &trans
-                &LC(LA(LS(LEFT))       &trans     &trans        &trans          &trans           
+                &LC(LA(LS(RIGHT)))     &trans     &trans        &trans          &trans
+                &LC(LA(LS(LEFT)))      &trans     &trans        &trans          &trans           
             >;  
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 
