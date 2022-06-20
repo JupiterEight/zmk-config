@@ -64,7 +64,7 @@
                 &kp N1       &kp LA(BSPC)    &kp LG(BSPC)       &trans       &kp KP_N9   
                 &kp N1       &kp KP_N4    &kp KP_N5       &kp KP_N6         &trans
                 &kp LA(RIGHT)       &kp KP_N1    &kp KP_N2       &kp KP_N3         &kp KP_N7
-                &kp LA(LEFT)       &kp KP_N0    &trans          &trans       &tog NAVI
+                &kp LA(LEFT)       &kp KP_N0    &trans          &mo NAVI      &trans
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 
