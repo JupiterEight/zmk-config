@@ -83,7 +83,7 @@
                 &kp N1             &kp LG(SPACE)      &kp LA(SPACE)          &kp DOWN        &kp UP   
                 &kp N2             &kp LG(Z)          &kp LC(X)              &kp LC(C)       &kp LG(V)    
                 &kp N3             &kp LA(BSPC)       &kp LG(BSPC)           &macro_1        &macro_2   
-                &kp N4            &kp KP_N4          &kp KP_N5              &kp KP_N6       &trans
+                &kp LG(LA(N8))     &kp KP_N4          &kp KP_N5              &kp KP_N6       &trans
                 &kp LA(RIGHT)      &kp KP_N1          &kp KP_N2              &kp KP_N3       &kp KP_N7
                 &kp LA(LEFT)       &kp KP_N0          &trans                 &mo NAVI        &trans
             >;
