@@ -67,7 +67,7 @@
                 &kp LA(RIGHT)       &kp KP_N1    &kp KP_N2       &kp KP_N3         &kp KP_N7
                 &kp LA(LEFT)       &kp KP_N0    &trans          &mo NAVI      &trans
             >;
-            sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp PG_DN PG_UP>;
 
         }; 
         
