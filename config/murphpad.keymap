@@ -33,7 +33,7 @@
                         #binding-cells = <0>;
                         bindings = <&macro_tap &kp LPAR &kp RPAR &kp LEFT>;                           
                 };        
-                macro_2: QUOT {
+                macro_2: macro_2 {
                         compatible = "zmk,behavior-macro";
                         label = "Quotes";
                         wait-ms = <0>;
@@ -92,7 +92,7 @@
         }; 
         
         navi_layer {
-            label = "navi layer";
+            label = "fn layer";
             bindings = <
                 &trans      &bt BT_NXT     &bt BT_CLR         &out OUT_USB          &out OUT_BLE
                 &trans      &trans &trans        &trans          &trans     
