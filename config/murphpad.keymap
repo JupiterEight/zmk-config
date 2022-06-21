@@ -33,7 +33,7 @@
                         #binding-cells = <0>;
                         bindings = <&macro_tap &kp LPAR &kp RPAR &kp LEFT>;                           
                 };        
-                macro_2: PARE {
+                macro_2: QUOT {
                         compatible = "zmk,behavior-macro";
                         label = "Quotes";
                         wait-ms = <0>;
