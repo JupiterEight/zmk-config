@@ -24,6 +24,19 @@
 };
 
 / {
+
+        behaviors {                            
+                macro_1: PARE {
+                        compatible = "zmk,behavior-macro";
+                        label = "PARE";
+                        #binding-cells = <0>;
+                        bindings 
+                            = <&macro_tap &kp LPAR &kp RPAR &kp LEFT>
+                            ;
+                };                           
+        };
+
+/ {
     combos {
         compatible = "zmk,combos";
         combo_btclr {
