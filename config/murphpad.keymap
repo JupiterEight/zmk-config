@@ -29,6 +29,7 @@
                 macro_1: PARE {
                         compatible = "zmk,behavior-macro";
                         label = "PARE";
+                        wait-ms = <0>;
                         #binding-cells = <0>;
                         bindings = <&macro_tap &kp LPAR &kp RPAR &kp LEFT>;                           
                 };                           
