@@ -74,7 +74,7 @@
             bindings = <
                 &kp N1       &kp LG(SPACE)      &kp LA(SPACE)          &kp DOWN     &kp UP   
                 &kp N1       &kp LG(Z)     &kp LC(X)  &kp LC(C)   &kp LG(V)    
-                &kp N1       &kp LA(BSPC)    &kp LG(BSPC)       &trans       &kp KP_N9   
+                &kp N1       &kp LA(BSPC)    &kp LG(BSPC)       &PARE       &kp KP_N9   
                 &kp N1       &kp KP_N4    &kp KP_N5       &kp KP_N6         &trans
                 &kp LA(RIGHT)       &kp KP_N1    &kp KP_N2       &kp KP_N3         &kp KP_N7
                 &kp LA(LEFT)       &kp KP_N0    &trans          &mo NAVI      &trans
