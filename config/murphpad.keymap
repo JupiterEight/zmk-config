@@ -14,6 +14,7 @@
 #define TIMEOUT 300
 #define DEFAULT 0
 #define NAVI    1
+#define RAISE   2
 
 &encoder_1 {
     status = "okay";
@@ -84,8 +85,8 @@
                 &kp N2             &kp LG(Z)          &kp LC(X)              &kp LC(C)       &kp LG(V)    
                 &kp N3             &kp LA(BSPC)       &kp LG(BSPC)           &macro_1        &macro_2   
                 &kp LG(LA(N8))     &kp KP_N4          &kp KP_N5              &kp KP_N6       &trans
-                &kp LA(RIGHT)      &kp KP_N1          &kp KP_N2              &kp KP_N3       &kp KP_N7
-                &kp LA(LEFT)       &kp KP_N0          &trans                 &mo NAVI        &trans
+                &kp LS(TAB)      &kp KP_N1          &kp KP_N2              &kp KP_N3       &kp KP_N7
+                &tog 2       &kp LA(LEFT)       &kp LA(RIGHT)          &mo NAVI        &trans
             >;
             sensor-bindings = <&inc_dec_kp LG(LA(EQUAL)) LG(LA(MINUS))>;
 
@@ -98,8 +99,21 @@
                 &trans      &trans &trans        &trans          &trans     
                 &trans      &trans     &trans        &trans             &trans
                 &trans  &trans     &trans        &trans          &trans    
-                &kp LC(LA(LS(RIGHT)))     &trans     &trans        &trans          &trans
-                &kp LC(LA(LS(LEFT)))      &trans     &trans        &trans          &trans           
+                &trans     &trans     &trans        &trans          &trans
+                &trans     &kp LC(LA(LS(LEFT)))     &kp LC(LA(LS(RIGHT)))         &trans          &trans           
+            >;  
+            sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+                
+        };
+        raise_layer {
+            label = "Raised";
+            bindings = <
+                &trans      &bt BT_NXT     &bt BT_CLR         &out OUT_USB          &out OUT_BLE
+                &trans      &trans &trans        &trans          &trans     
+                &trans      &trans     &trans        &trans             &trans
+                &trans  &trans     &trans        &trans          &trans    
+                &trans     &trans     &trans        &trans          &trans
+                &tog 2     &kp LC(LA(LS(LEFT)))      &kp LC(LA(LS(RIGHT)))        &trans          &trans           
             >;  
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 
