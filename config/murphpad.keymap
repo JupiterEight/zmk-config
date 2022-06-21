@@ -33,6 +33,7 @@
                         bindings = <&macro_tap &kp LPAR &kp RPAR &kp LEFT>;                           
                 };                           
         };
+};
 
 / {
     combos {
