@@ -85,8 +85,8 @@
                 &kp N2             &kp LG(Z)          &kp LC(X)              &kp LC(C)       &kp LG(V)    
                 &kp N3             &kp LA(BSPC)       &kp LG(BSPC)           &macro_1        &macro_2   
                 &kp LG(LA(N8))     &kp KP_N4          &kp KP_N5              &kp KP_N6       &trans
-                &kp LS(TAB)        &kp KP_N1          &kp KP_N2              &kp KP_N3       &kp KP_N7
-                &tog 2             &kp LA(LEFT)       &kp LA(RIGHT)          &mo NAVI        &kp LC(LG(LA))
+                &kp LS(TAB)      &kp KP_N1          &kp KP_N2              &kp KP_N3       &kp KP_N7
+                &tog 2       &kp LA(LEFT)       &kp LA(RIGHT)          &mo NAVI        &trans
             >;
             sensor-bindings = <&inc_dec_kp LG(LA(EQUAL)) LG(LA(MINUS))>;
 
