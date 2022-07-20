@@ -100,8 +100,8 @@
                 &trans      &trans &trans        &trans          &trans     
                 &trans      &trans     &trans        &trans             &trans
                 &trans  &trans     &trans        &trans          &trans    
-                &kp LC(X(LEFT))     &trans     &trans        &trans          &trans
-                &kp LC(X(RIGHT))     &kp LC(LA(LS(LEFT)))     &kp LC(LA(LS(RIGHT)))         &tog NAVI         &kp LC(X)           
+                &trans     &trans     &trans        &trans          &trans
+                &trans     &kp LC(LA(LS(LEFT)))     &kp LC(LA(LS(RIGHT)))         &tog NAVI         &kp LC(X)           
             >;  
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
                 
