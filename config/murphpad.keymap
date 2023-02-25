@@ -78,18 +78,18 @@
         default_layer {
             label = "default layer";
             bindings = <
-                &kp N1                      &kp LG(SPACE)             &kp LA(SPACE)            &kp DOWN           &kp UP   
-                &kp N2                      &kp LG(Z)                 &kp LG(X)                &kp LG(C)          &kp LG(V)    
-                &kp N3                      &kp LA(BSPC)              &kp LG(BSPC)             &macro_1           &macro_2   
-                &kp LS(LA(UP))              &kp LS(LA(LEFT))          &kp LC(M)                &kp LG(B)          &kp LG(I)
-                &kp LS(LC(LEFT))            &kp LC(A)                 &kp LC(E)                &kp LC(K)          &kp LG(U)
-                &kp LS(LC(RIGHT))           &kp LA(LEFT)              &kp LA(RIGHT)            &tog VIM           &kp LC(Z)
+                &kp N1                      &kp LG(SPACE)             &kp LA(SPACE)           &kp DOWN           &kp UP   
+                &kp N2                      &kp LG(Z)                 &kp LG(X)               &kp LG(C)          &kp LG(V)    
+                &kp N3                      &kp LA(BSPC)              &kp LG(BSPC)            &macro_1           &macro_2   
+                &kp LS(LA(UP))              &kp LS(LA(LEFT))          &kp LC(M)               &kp LG(B)          &kp LG(I)
+                &kp LS(LC(LEFT))            &kp LC(A)                 &kp LC(E)               &kp LC(K)          &kp LG(U)
+                &kp LS(LC(RIGHT))           &kp LA(LEFT)              &kp LA(RIGHT)           &tog VIM           &kp LC(Z)
             >;
             sensor-bindings = <&inc_dec_kp LG(LA(EQUAL)) LG(LA(MINUS))>;
 
         }; 
         
-        navi_layer {
+        vim_layer {
             label = "VIM";
             bindings = <
                 &trans                  &bt BT_NXT               &bt BT_CLR                    &out OUT_USB      &out OUT_BLE
